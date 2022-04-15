@@ -1,0 +1,11 @@
+.title, .text, .info{
+  text-align: center;
+}
+
+.alert-info {
+  background-color: #F8F8F8;
+  border-color: black;
+  margin-left: 10px;
+  margin-right: 10px;
+  border-radius: 30px;
+}
