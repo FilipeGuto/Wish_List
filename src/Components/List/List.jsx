@@ -10,6 +10,7 @@ import {
 import "./list.css"
 
 import oculos from "../../images/oculos.jpg";
+import secador from "../../images/secador.jpg";
 import nike from "../../images/nike.jpeg";
 import vestido from "../../images/vestido.jpg";
 import vestido1 from "../../images/vestido1.jpg";
@@ -33,11 +34,25 @@ export default function List() {
           <CardTitle tag="h5">Lente do óculos</CardTitle>
           <h6>R$ 350,00</h6>
           <Button className="button">
-            <a href="http://" target="_blank" rel="noopener noreferrer">
+            <a href="https://api.whatsapp.com/send?phone=5511987465584" target="_blank" rel="noopener noreferrer">
               Vem de Zap
             </a>
           </Button>
         </CardBody>
+        <p>Entre em contato comigo</p>
+      </Card>
+      <Card className="card">
+        <CardImg alt="Secador" src={secador} top width="100%" className="image"/>
+        <CardBody>
+          <CardTitle tag="h5">Secador</CardTitle>
+          <h6>R$ 50,00</h6>
+          <Button className="button">
+            <a href="https://www.magazineluiza.com.br/secador-de-cabelo-lenoxx-pratic-red-1500-para-viagem-de-parede-dobravel-1200w-2-velocidades/p/221435700/pf/psec/?&force=12&seller_id=magazineluiza&utm_source=google&utm_medium=pla&utm_campaign=&partner_id=58375&gclid=Cj0KCQjw0umSBhDrARIsAH7FCofhDVUTHbN4B5yXgvu4qR-F8H9xXUftjg7RwbtAmTl5ff9t9-j8ws4aAp0pEALw_wcB&gclsrc=aw.ds" target="_blank" rel="noopener noreferrer">
+              Compre aqui
+            </a>
+          </Button>
+        </CardBody>
+        <p>Entre em contato comigo</p>
       </Card>
       <Card>
         <CardImg alt="Tenis Nike" src={nike} top width="100%" className="image"/>
@@ -54,6 +69,7 @@ export default function List() {
             </a>
           </Button>
         </CardBody>
+        <p>Entre em contato comigo</p>
       </Card>
       <Card>
         <CardImg alt="Vestido" src={vestido} top width="100%" className="image"/>
@@ -70,6 +86,7 @@ export default function List() {
             </a>
           </Button>
         </CardBody>
+        <p>Entre em contato comigo</p>
       </Card>
       <Card>
         <CardImg alt="Vestido" src={vestido1} top width="100%" className="image"/>
@@ -86,6 +103,7 @@ export default function List() {
             </a>
           </Button>
         </CardBody>
+        <p>Entre em contato comigo</p>
       </Card>
       <Card>
         <CardImg alt="Vestido" src={vestido2} top width="100%" className="image"/>
@@ -102,6 +120,7 @@ export default function List() {
             </a>
           </Button>
         </CardBody>
+        <p>Entre em contato comigo</p>
       </Card>
       <Card>
         <CardImg alt="Vestido" src={vestido3} top width="100%" className="image"/>
@@ -118,6 +137,7 @@ export default function List() {
             </a>
           </Button>
         </CardBody>
+        <p>Entre em contato comigo</p>
       </Card>
       <Card>
         <CardImg alt="Body" src={body} top width="100%" className="image"/>
@@ -134,6 +154,7 @@ export default function List() {
             </a>
           </Button>
         </CardBody>
+        <p>Entre em contato comigo</p>
       </Card>
       <Card>
         <CardImg alt="Livro" src={livro1} top width="100%" className="image"/>
@@ -150,6 +171,7 @@ export default function List() {
             </a>
           </Button>
         </CardBody>
+        <p>Entre em contato comigo</p>
       </Card>
       <Card>
         <CardImg alt="Livro" src={livro2} top width="100%" className="image"/>
@@ -166,6 +188,7 @@ export default function List() {
             </a>
           </Button>
         </CardBody>
+        <p>Entre em contato comigo</p>
       </Card>
       <Card>
         <CardImg alt="Livro" src={livro3} top width="100%" className="image"/>
@@ -182,6 +205,7 @@ export default function List() {
             </a>
           </Button>
         </CardBody>
+        <p>Entre em contato comigo</p>
       </Card>
       <Card>
         <CardImg alt="Berloque" src={berloque1} top width="100%" className="image"/>
@@ -198,6 +222,7 @@ export default function List() {
             </a>
           </Button>
         </CardBody>
+        <p>Entre em contato comigo</p>
       </Card>
       <Card>
         <CardImg alt="Berloque" src={berloque2} top width="100%" className="image"/>
@@ -214,6 +239,7 @@ export default function List() {
             </a>
           </Button>
         </CardBody>
+        <p>Entre em contato comigo</p>
       </Card>
       <Card>
         <CardImg alt="Piercing" src={piercing} top width="100%" className="image"/>
@@ -222,7 +248,7 @@ export default function List() {
           <h6>R$ 80,00</h6>
           <Button className="button">
             <a
-              href="http://"
+              href="https://api.whatsapp.com/send?phone=5511987465584"
               target="_blank"
               rel="noopener noreferrer"
             >
@@ -230,6 +256,7 @@ export default function List() {
             </a>
           </Button>
         </CardBody>
+        <p>Entre em contato comigo</p>
       </Card>
       <Card>
         <CardImg alt="Tatto" src={tatto} top width="100%" className="image"/>
@@ -238,7 +265,7 @@ export default function List() {
           <h6>R$ 150,00</h6>
           <Button className="button">
             <a
-              href="http://"
+              href="https://api.whatsapp.com/send?phone=5511987465584"
               target="_blank"
               rel="noopener noreferrer"
             >
@@ -246,6 +273,7 @@ export default function List() {
             </a>
           </Button>
         </CardBody>
+        <p>Entre em contato comigo</p>
       </Card>
     </div>
   );
