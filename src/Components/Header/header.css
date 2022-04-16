@@ -5,3 +5,8 @@
   text-align: center;
   text-transform: uppercase;
 }
+
+.alert-success {
+  background-color: #AB82FF;
+  color: white;
+}

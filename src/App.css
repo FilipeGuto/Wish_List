@@ -1,0 +1,7 @@
+.App {
+  background-size: cover;
+  background: linear-gradient(-45deg, white,  #9b36bd, #580e63);
+  color: white;
+  padding: 40px 20px;
+  text-align: center;
+}
