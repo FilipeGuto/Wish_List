@@ -1,0 +1,31 @@
+.footer {
+  /* height: 30px; */
+  /* margin-bottom: 10px; */
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+hr {
+  color: black;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+.button-footer {
+  background-color: #9d55b4;
+  text-transform: uppercase;
+  border-radius: 8px;
+  margin-right: 10px;
+  margin-left: 10px;
+}
+
+.button-footer a:hover{
+  color: purple;
+}
+
+.button-footer a{
+  text-decoration: none;
+  color: white;
+  text-transform: uppercase;
+}

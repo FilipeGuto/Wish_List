@@ -6,7 +6,7 @@ export default function Header() {
   return (
     <div>
   <Alert
-  color="#AB82FF"
+    color="#AB82FF"
     className="header"
   >
     Wishlist 💝

@@ -4,8 +4,11 @@
 
 .alert-info {
   background-color: #F8F8F8;
-  border-color: black;
-  margin-left: 10px;
-  margin-right: 10px;
+  margin-left: 20px;
+  margin-right: 20px;
   border-radius: 30px;
+}
+
+.alert-info, h4, p {
+  color: black;
 }

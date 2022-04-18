@@ -15,8 +15,9 @@
   text-transform: uppercase;
 }
 
-.container p {
-  font-style: italic;
+.card p {
+  font-family: 'Roboto Mono', sans-serif;
+  text-decoration: underline;
 }
 
 .image {
@@ -26,15 +27,22 @@
   border-radius: 10px;
 }
 
+.button {
+  background-color: #9d55b4;
+  text-transform: uppercase;
+  padding: 5px;
+  border-radius: 8px;
+}
+
 .button a:hover{
   color: purple;
-  text-transform: uppercase;
 }
 
 .button a{
   text-decoration: none;
   color: white;
   text-transform: uppercase;
+  margin: 5px
 }
 
 

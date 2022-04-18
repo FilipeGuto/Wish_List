@@ -4,13 +4,13 @@ import {
   CardImg,
   CardBody,
   CardTitle,
-  Button
 } from "reactstrap";
 
 import "./list.css"
 
 import oculos from "../../images/oculos.jpg";
 import secador from "../../images/secador.jpg";
+import limpeza from "../../images/limpeza.jpg";
 import nike from "../../images/nike.jpeg";
 import vestido from "../../images/vestido.jpg";
 import vestido1 from "../../images/vestido1.jpg";
@@ -33,11 +33,11 @@ export default function List() {
         <CardBody>
           <CardTitle tag="h5">Lente do óculos</CardTitle>
           <h6>R$ 350,00</h6>
-          <Button className="button">
+          <button className="button">
             <a href="https://api.whatsapp.com/send?phone=5511987465584" target="_blank" rel="noopener noreferrer">
               Vem de Zap
             </a>
-          </Button>
+          </button>
         </CardBody>
         <p>Entre em contato comigo</p>
       </Card>
@@ -46,11 +46,24 @@ export default function List() {
         <CardBody>
           <CardTitle tag="h5">Secador</CardTitle>
           <h6>R$ 50,00</h6>
-          <Button className="button">
+          <button className="button">
             <a href="https://www.magazineluiza.com.br/secador-de-cabelo-lenoxx-pratic-red-1500-para-viagem-de-parede-dobravel-1200w-2-velocidades/p/221435700/pf/psec/?&force=12&seller_id=magazineluiza&utm_source=google&utm_medium=pla&utm_campaign=&partner_id=58375&gclid=Cj0KCQjw0umSBhDrARIsAH7FCofhDVUTHbN4B5yXgvu4qR-F8H9xXUftjg7RwbtAmTl5ff9t9-j8ws4aAp0pEALw_wcB&gclsrc=aw.ds" target="_blank" rel="noopener noreferrer">
               Compre aqui
             </a>
-          </Button>
+          </button>
+        </CardBody>
+        <p>Entre em contato comigo</p>
+      </Card>
+      <Card className="card">
+        <CardImg alt="Limpeza" src={limpeza} top width="100%" className="image"/>
+        <CardBody>
+          <CardTitle tag="h5">Limpeza de pele</CardTitle>
+          <h6>R$ 80,00</h6>
+          <button className="button">
+            <a href="https://api.whatsapp.com/send?phone=5511987465584" target="_blank" rel="noopener noreferrer">
+              Vem de Zap
+            </a>
+          </button>
         </CardBody>
         <p>Entre em contato comigo</p>
       </Card>
@@ -59,7 +72,7 @@ export default function List() {
         <CardBody>
           <CardTitle tag="h5">Nike branco</CardTitle>
           <h6>R$ 220,00</h6>
-          <Button className="button">
+          <button className="button">
             <a
               href="https://www.centeroutlets.com.br/products/tenis-air-force-1?variant=42532653138170"
               target="_blank"
@@ -67,7 +80,7 @@ export default function List() {
             >
               Compre aqui
             </a>
-          </Button>
+          </button>
         </CardBody>
         <p>Entre em contato comigo</p>
       </Card>
@@ -76,7 +89,7 @@ export default function List() {
         <CardBody>
           <CardTitle tag="h5">Vestido</CardTitle>
           <h6>R$ 68,00</h6>
-          <Button className="button">
+          <button className="button">
             <a
               href="https://br.shein.com/SHEIN-PETITE-Ruched-Bust-Flare-Hem-Cami-Dress-p-9752218-cat-1727.html?scici=productDetail~~RecommendList~~RS_own,RJ_NoFaultTolerant~~Customers%20Also%20Viewed~~SPcProductDetailCustomersAlsoViewedList~~0"
               target="_blank"
@@ -84,7 +97,7 @@ export default function List() {
             >
               Compre aqui
             </a>
-          </Button>
+          </button>
         </CardBody>
         <p>Entre em contato comigo</p>
       </Card>
@@ -93,7 +106,7 @@ export default function List() {
         <CardBody>
           <CardTitle tag="h5">Vestido</CardTitle>
           <h6>R$ 73,00</h6>
-          <Button className="button">
+          <button className="button">
             <a
               href="https://br.shein.com/SHEIN-Cut-Out-Tie-Back-Ruffle-Trim-Wrap-Hem-Slip-Dress-p-1981036-cat-1727.html?src_identifier=st%3D2%60sc%3Dvestidos%60sr%3D0%60ps%3D1&src_module=search&src_tab_page_id=page_home1650050387442&scici=Search~~EditSearch~~1~~vestidos~~~~0"
               target="_blank"
@@ -101,7 +114,7 @@ export default function List() {
             >
               Compre aqui
             </a>
-          </Button>
+          </button>
         </CardBody>
         <p>Entre em contato comigo</p>
       </Card>
@@ -110,7 +123,7 @@ export default function List() {
         <CardBody>
           <CardTitle tag="h5">Vestido</CardTitle>
           <h6>R$ 76,00</h6>
-          <Button className="button">
+          <button className="button">
             <a
               href="https://br.shein.com/Sunflower-Print-Crisscross-Cami-Mini-Dress-p-357038-cat-1727.html?src_identifier=st%3D2%60sc%3Dvestidos%60sr%3D0%60ps%3D1&src_module=search&src_tab_page_id=page_home1650050387442&scici=Search~~EditSearch~~1~~vestidos~~~~0"
               target="_blank"
@@ -118,7 +131,7 @@ export default function List() {
             >
               Compre aqui
             </a>
-          </Button>
+          </button>
         </CardBody>
         <p>Entre em contato comigo</p>
       </Card>
@@ -127,7 +140,7 @@ export default function List() {
         <CardBody>
           <CardTitle tag="h5">Vestido</CardTitle>
           <h6>R$ 65,00</h6>
-          <Button className="button">
+          <button className="button">
             <a
               href="https://br.shein.com/SHEIN-Zipper-Back-Glitter-Cami-Dress-p-7917902-cat-1727.html?scici=productDetail~~RecommendList~~RS_own,RJ_NoFaultTolerant~~Customers%20Also%20Viewed~~SPcProductDetailCustomersAlsoViewedList~~0"
               target="_blank"
@@ -135,7 +148,7 @@ export default function List() {
             >
               Compre aqui
             </a>
-          </Button>
+          </button>
         </CardBody>
         <p>Entre em contato comigo</p>
       </Card>
@@ -144,7 +157,7 @@ export default function List() {
         <CardBody>
           <CardTitle tag="h5">Body preto</CardTitle>
           <h6>R$ 61,00</h6>
-          <Button className="button">
+          <button className="button">
             <a
               href="https://br.shein.com/SHEIN-X-ANITTA-Plain-Leg-Ring-One-Piece-Swimsuit-p-10057408-cat-2193.html?src_identifier=st%3D6%60sc%3D%23SHEINxANITTA%60sr%3D0%60ps%3D1&src_module=search&src_tab_page_id=page_select_class1650058883975&scici=Search~~HotSearch~~1~~_23SHEINxANITTA~~SPcSearchWordsHot~~0"
               target="_blank"
@@ -152,7 +165,7 @@ export default function List() {
             >
               Compre aqui
             </a>
-          </Button>
+          </button>
         </CardBody>
         <p>Entre em contato comigo</p>
       </Card>
@@ -161,7 +174,7 @@ export default function List() {
         <CardBody>
           <CardTitle tag="h5">Livro novo</CardTitle>
           <h6>R$ 45,00</h6>
-          <Button className="button">
+          <button className="button">
             <a
               href="https://www.amazon.com.br/Homo-deus-Yuval-Noah-Harari/dp/8535928197/ref=sr_1_1_sspa?__mk_pt_BR=%C3%85M%C3%85%C5%BD%C3%95%C3%91&crid=3G38IIVAOS77S&keywords=Homo+Deus&qid=1650060497&s=books&sprefix=homo+deus%2Cstripbooks%2C187&sr=1-1-spons&psc=1&spLa=ZW5jcnlwdGVkUXVhbGlmaWVyPUExWUlMQkVTM0c5TlU0JmVuY3J5cHRlZElkPUEwNjM1NzExM0tGOUFEVTFLV0ZCVyZlbmNyeXB0ZWRBZElkPUEwNTE1NjMwMVNQRlY4R1Y0NkEwTyZ3aWRnZXROYW1lPXNwX2F0ZiZhY3Rpb249Y2xpY2tSZWRpcmVjdCZkb05vdExvZ0NsaWNrPXRydWU="
               target="_blank"
@@ -169,7 +182,7 @@ export default function List() {
             >
               Compre aqui
             </a>
-          </Button>
+          </button>
         </CardBody>
         <p>Entre em contato comigo</p>
       </Card>
@@ -178,7 +191,7 @@ export default function List() {
         <CardBody>
           <CardTitle tag="h5">Livro novo</CardTitle>
           <h6>R$ 34,00</h6>
-          <Button className="button">
+          <button className="button">
             <a
               href="https://www.amazon.com.br/Terra-Hist%C3%B3rias-Odisseia-Um-Escritor/dp/8557171846/ref=sr_1_8?crid=19ZJG5XYURAKE&keywords=terra+de+historias&qid=1650060565&s=books&sprefix=Terra+de%2Cstripbooks%2C211&sr=1-8"
               target="_blank"
@@ -186,7 +199,7 @@ export default function List() {
             >
               Compre aqui
             </a>
-          </Button>
+          </button>
         </CardBody>
         <p>Entre em contato comigo</p>
       </Card>
@@ -195,7 +208,7 @@ export default function List() {
         <CardBody>
           <CardTitle tag="h5">Livro novo</CardTitle>
           <h6>R$ 31,00</h6>
-          <Button className="button">
+          <button className="button">
             <a
               href="https://www.amazon.com.br/Colis%C3%A3o-dos-Mundos-Terra-Hist%C3%B3rias/dp/8557172494/ref=sr_1_7?crid=19ZJG5XYURAKE&keywords=terra+de+historias&qid=1650060565&s=books&sprefix=Terra+de%2Cstripbooks%2C211&sr=1-7"
               target="_blank"
@@ -203,7 +216,7 @@ export default function List() {
             >
               Compre aqui
             </a>
-          </Button>
+          </button>
         </CardBody>
         <p>Entre em contato comigo</p>
       </Card>
@@ -212,7 +225,7 @@ export default function List() {
         <CardBody>
           <CardTitle tag="h5">Berloque novo</CardTitle>
           <h6>R$ 80,00</h6>
-          <Button className="button">
+          <button className="button">
             <a
               href="https://www.berloquejoias.com.br/collections/berloques/products/berloque-amo-abacate"
               target="_blank"
@@ -220,7 +233,7 @@ export default function List() {
             >
               Compre aqui
             </a>
-          </Button>
+          </button>
         </CardBody>
         <p>Entre em contato comigo</p>
       </Card>
@@ -229,7 +242,7 @@ export default function List() {
         <CardBody>
           <CardTitle tag="h5">Berloque novo</CardTitle>
           <h6>R$ 80,00</h6>
-          <Button className="button">
+          <button className="button">
             <a
               href="https://www.berloquejoias.com.br/collections/berloques/products/berloque-girassol"
               target="_blank"
@@ -237,7 +250,7 @@ export default function List() {
             >
               Compre aqui
             </a>
-          </Button>
+          </button>
         </CardBody>
         <p>Entre em contato comigo</p>
       </Card>
@@ -246,7 +259,7 @@ export default function List() {
         <CardBody>
           <CardTitle tag="h5">Piercing</CardTitle>
           <h6>R$ 80,00</h6>
-          <Button className="button">
+          <button className="button">
             <a
               href="https://api.whatsapp.com/send?phone=5511987465584"
               target="_blank"
@@ -254,7 +267,7 @@ export default function List() {
             >
               Vem de Zap
             </a>
-          </Button>
+          </button>
         </CardBody>
         <p>Entre em contato comigo</p>
       </Card>
@@ -263,7 +276,7 @@ export default function List() {
         <CardBody>
           <CardTitle tag="h5">Tatto</CardTitle>
           <h6>R$ 150,00</h6>
-          <Button className="button">
+          <button className="button">
             <a
               href="https://api.whatsapp.com/send?phone=5511987465584"
               target="_blank"
@@ -271,7 +284,7 @@ export default function List() {
             >
               Vem de Zap
             </a>
-          </Button>
+          </button>
         </CardBody>
         <p>Entre em contato comigo</p>
       </Card>
