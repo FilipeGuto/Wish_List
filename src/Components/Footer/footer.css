@@ -1,6 +1,4 @@
 .footer {
-  /* height: 30px; */
-  /* margin-bottom: 10px; */
   display: flex;
   justify-content: flex-end;
   align-items: center;
@@ -18,6 +16,7 @@ hr {
   border-radius: 8px;
   margin-right: 10px;
   margin-left: 10px;
+  margin-bottom: 15px;
 }
 
 .button-footer a:hover{
