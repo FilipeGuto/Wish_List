@@ -16,6 +16,8 @@ import vestido from "../../images/vestido.jpg";
 import vestido1 from "../../images/vestido1.jpg";
 import vestido2 from "../../images/vestido2.jpg";
 import vestido3 from "../../images/vestido3.jpg";
+import saia1 from "../../images/saia1.jpg";
+import saia2 from "../../images/saia2.jpg";
 import body from "../../images/body.jpg";
 import livro1 from "../../images/HomoDeus.jpg";
 import livro2 from "../../images/TerradHist5.jpg";
@@ -145,6 +147,40 @@ export default function List() {
           <button className="button">
             <a
               href="https://br.shein.com/SHEIN-Zipper-Back-Glitter-Cami-Dress-p-7917902-cat-1727.html?scici=productDetail~~RecommendList~~RS_own,RJ_NoFaultTolerant~~Customers%20Also%20Viewed~~SPcProductDetailCustomersAlsoViewedList~~0"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Compre aqui
+            </a>
+          </button>
+        </CardBody>
+        <p>Entre em contato comigo</p>
+      </Card>
+      <Card>
+        <CardImg alt="Vestido" src={saia1} top width="100%" className="image"/>
+        <CardBody>
+          <CardTitle tag="h5">Saia</CardTitle>
+          <h6>R$ 62,00</h6>
+          <button className="button">
+            <a
+              href="https://br.shein.com/Striped-Panel-Belted-A-line-Dress-p-9124517-cat-1727.html?src_identifier=st%3D2%60sc%3Dcom%20cinto%20guarni%C3%A7%C3%A3o%20de%20alface%60sr%3D0%60ps%3D1&src_module=search&src_tab_page_id=page_search1651023865411&scici=Search~~EditSearch~~1~~com_20cinto_20guarni_C3_A7_C3_A3o_20de_20alface~~~~0"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Compre aqui
+            </a>
+          </button>
+        </CardBody>
+        <p>Entre em contato comigo</p>
+      </Card>
+      <Card>
+        <CardImg alt="Vestido" src={saia2} top width="100%" className="image"/>
+        <CardBody>
+          <CardTitle tag="h5">Saia</CardTitle>
+          <h6>R$ 45,00</h6>
+          <button className="button">
+            <a
+              href="https://br.shein.com/High-Waist-Textured-Flare-Skirt-p-7076527-cat-1732.html"
               target="_blank"
               rel="noopener noreferrer"
             >
