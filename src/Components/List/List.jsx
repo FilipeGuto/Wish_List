@@ -9,8 +9,6 @@ import {
 import "./list.css"
 
 import oculos from "../../images/oculos.jpg";
-import secador from "../../images/secador.jpg";
-import limpeza from "../../images/limpeza.jpg";
 import nike from "../../images/nike.jpeg";
 import vestido from "../../images/vestido.jpg";
 import vestido1 from "../../images/vestido1.jpg";
@@ -37,32 +35,6 @@ export default function List() {
         <CardBody>
           <CardTitle tag="h5">Lente do óculos</CardTitle>
           <h6>R$ 350,00</h6>
-          <button className="button">
-            <a href="https://api.whatsapp.com/send?phone=5511987465584" target="_blank" rel="noopener noreferrer">
-              Vem de Zap
-            </a>
-          </button>
-        </CardBody>
-        <p>Entre em contato comigo</p>
-      </Card>
-      <Card className="card">
-        <CardImg alt="Secador" src={secador} top width="100%" className="image"/>
-        <CardBody>
-          <CardTitle tag="h5">Secador</CardTitle>
-          <h6>R$ 50,00</h6>
-          <button className="button">
-            <a href="https://www.magazineluiza.com.br/secador-de-cabelo-lenoxx-pratic-red-1500-para-viagem-de-parede-dobravel-1200w-2-velocidades/p/221435700/pf/psec/?&force=12&seller_id=magazineluiza&utm_source=google&utm_medium=pla&utm_campaign=&partner_id=58375&gclid=Cj0KCQjw0umSBhDrARIsAH7FCofhDVUTHbN4B5yXgvu4qR-F8H9xXUftjg7RwbtAmTl5ff9t9-j8ws4aAp0pEALw_wcB&gclsrc=aw.ds" target="_blank" rel="noopener noreferrer">
-              Compre aqui
-            </a>
-          </button>
-        </CardBody>
-        <p>Entre em contato comigo</p>
-      </Card>
-      <Card className="card">
-        <CardImg alt="Limpeza" src={limpeza} top width="100%" className="image"/>
-        <CardBody>
-          <CardTitle tag="h5">Limpeza de pele</CardTitle>
-          <h6>R$ 80,00</h6>
           <button className="button">
             <a href="https://api.whatsapp.com/send?phone=5511987465584" target="_blank" rel="noopener noreferrer">
               Vem de Zap
