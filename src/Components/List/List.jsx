@@ -24,7 +24,6 @@ import berloque1 from "../../images/berloque1.jpg";
 import berloque2 from "../../images/berloque2.jpg";
 import piercing from "../../images/piercing.jpg";
 import tatto from "../../images/tatto.jpg";
-import base from "../../images/base.jpg";
 import esmalte from "../../images/esmalte.jpg";
 
 export default function List() {
@@ -286,23 +285,6 @@ export default function List() {
         <CardBody>
           <CardTitle tag="h5">Tatto</CardTitle>
           <h6>R$ 150,00</h6>
-          <button className="button">
-            <a
-              href="https://api.whatsapp.com/send?phone=5511987465584"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              Vem de Zap
-            </a>
-          </button>
-        </CardBody>
-        <p>Entre em contato comigo</p>
-      </Card>
-      <Card>
-        <CardImg alt="Base" src={base} top width="100%" className="image"/>
-        <CardBody>
-          <CardTitle tag="h5">Base</CardTitle>
-          <h6>R$ 30,00</h6>
           <button className="button">
             <a
               href="https://api.whatsapp.com/send?phone=5511987465584"
