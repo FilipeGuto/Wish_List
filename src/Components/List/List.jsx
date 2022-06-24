@@ -1,22 +1,14 @@
 import React from "react";
-import {
-  Card,
-  CardImg,
-  CardBody,
-  CardTitle,
-} from "reactstrap";
+import { Card, CardImg, CardBody, CardTitle } from "reactstrap";
 
-import "./list.css"
+import "./list.css";
 
-import oculos from "../../images/oculos.jpg";
 import nike from "../../images/nike.jpeg";
 import vestido from "../../images/vestido.jpg";
 import vestido1 from "../../images/vestido1.jpg";
 import vestido2 from "../../images/vestido2.jpg";
 import vestido3 from "../../images/vestido3.jpg";
 import saia1 from "../../images/saia1.jpg";
-import saia2 from "../../images/saia2.jpg";
-import body from "../../images/body.jpg";
 import livro1 from "../../images/HomoDeus.jpg";
 import livro2 from "../../images/TerradHist5.jpg";
 import livro3 from "../../images/TerradHist6.jpg";
@@ -29,21 +21,14 @@ import esmalte from "../../images/esmalte.jpg";
 export default function List() {
   return (
     <div className="container">
-      <Card className="card">
-        <CardImg alt="Oculos" src={oculos} top width="100%" className="image"/>
-        <CardBody>
-          <CardTitle tag="h5">Lente do óculos</CardTitle>
-          <h6>R$ 350,00</h6>
-          <button className="button">
-            <a href="https://api.whatsapp.com/send?phone=5511987465584" target="_blank" rel="noopener noreferrer">
-              Vem de Zap
-            </a>
-          </button>
-        </CardBody>
-        <p>Entre em contato comigo</p>
-      </Card>
       <Card>
-        <CardImg alt="Tenis Nike" src={nike} top width="100%" className="image"/>
+        <CardImg
+          alt="Tenis Nike"
+          src={nike}
+          top
+          width="100%"
+          className="image"
+        />
         <CardBody>
           <CardTitle tag="h5">Nike branco</CardTitle>
           <h6>R$ 220,00</h6>
@@ -60,7 +45,13 @@ export default function List() {
         <p>Entre em contato comigo</p>
       </Card>
       <Card>
-        <CardImg alt="Vestido" src={vestido} top width="100%" className="image"/>
+        <CardImg
+          alt="Vestido"
+          src={vestido}
+          top
+          width="100%"
+          className="image"
+        />
         <CardBody>
           <CardTitle tag="h5">Vestido</CardTitle>
           <h6>R$ 68,00</h6>
@@ -77,7 +68,13 @@ export default function List() {
         <p>Entre em contato comigo</p>
       </Card>
       <Card>
-        <CardImg alt="Vestido" src={vestido1} top width="100%" className="image"/>
+        <CardImg
+          alt="Vestido"
+          src={vestido1}
+          top
+          width="100%"
+          className="image"
+        />
         <CardBody>
           <CardTitle tag="h5">Vestido</CardTitle>
           <h6>R$ 73,00</h6>
@@ -94,7 +91,13 @@ export default function List() {
         <p>Entre em contato comigo</p>
       </Card>
       <Card>
-        <CardImg alt="Vestido" src={vestido2} top width="100%" className="image"/>
+        <CardImg
+          alt="Vestido"
+          src={vestido2}
+          top
+          width="100%"
+          className="image"
+        />
         <CardBody>
           <CardTitle tag="h5">Vestido</CardTitle>
           <h6>R$ 76,00</h6>
@@ -111,7 +114,13 @@ export default function List() {
         <p>Entre em contato comigo</p>
       </Card>
       <Card>
-        <CardImg alt="Vestido" src={vestido3} top width="100%" className="image"/>
+        <CardImg
+          alt="Vestido"
+          src={vestido3}
+          top
+          width="100%"
+          className="image"
+        />
         <CardBody>
           <CardTitle tag="h5">Vestido</CardTitle>
           <h6>R$ 65,00</h6>
@@ -128,7 +137,7 @@ export default function List() {
         <p>Entre em contato comigo</p>
       </Card>
       <Card>
-        <CardImg alt="Vestido" src={saia1} top width="100%" className="image"/>
+        <CardImg alt="Vestido" src={saia1} top width="100%" className="image" />
         <CardBody>
           <CardTitle tag="h5">Saia</CardTitle>
           <h6>R$ 62,00</h6>
@@ -145,41 +154,7 @@ export default function List() {
         <p>Entre em contato comigo</p>
       </Card>
       <Card>
-        <CardImg alt="Vestido" src={saia2} top width="100%" className="image"/>
-        <CardBody>
-          <CardTitle tag="h5">Saia</CardTitle>
-          <h6>R$ 45,00</h6>
-          <button className="button">
-            <a
-              href="https://br.shein.com/High-Waist-Textured-Flare-Skirt-p-7076527-cat-1732.html"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              Compre aqui
-            </a>
-          </button>
-        </CardBody>
-        <p>Entre em contato comigo</p>
-      </Card>
-      <Card>
-        <CardImg alt="Body" src={body} top width="100%" className="image"/>
-        <CardBody>
-          <CardTitle tag="h5">Body preto</CardTitle>
-          <h6>R$ 61,00</h6>
-          <button className="button">
-            <a
-              href="https://br.shein.com/SHEIN-X-ANITTA-Plain-Leg-Ring-One-Piece-Swimsuit-p-10057408-cat-2193.html?src_identifier=st%3D6%60sc%3D%23SHEINxANITTA%60sr%3D0%60ps%3D1&src_module=search&src_tab_page_id=page_select_class1650058883975&scici=Search~~HotSearch~~1~~_23SHEINxANITTA~~SPcSearchWordsHot~~0"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              Compre aqui
-            </a>
-          </button>
-        </CardBody>
-        <p>Entre em contato comigo</p>
-      </Card>
-      <Card>
-        <CardImg alt="Livro" src={livro1} top width="100%" className="image"/>
+        <CardImg alt="Livro" src={livro1} top width="100%" className="image" />
         <CardBody>
           <CardTitle tag="h5">Livro novo</CardTitle>
           <h6>R$ 45,00</h6>
@@ -196,7 +171,7 @@ export default function List() {
         <p>Entre em contato comigo</p>
       </Card>
       <Card>
-        <CardImg alt="Livro" src={livro2} top width="100%" className="image"/>
+        <CardImg alt="Livro" src={livro2} top width="100%" className="image" />
         <CardBody>
           <CardTitle tag="h5">Livro novo</CardTitle>
           <h6>R$ 34,00</h6>
@@ -213,7 +188,7 @@ export default function List() {
         <p>Entre em contato comigo</p>
       </Card>
       <Card>
-        <CardImg alt="Livro" src={livro3} top width="100%" className="image"/>
+        <CardImg alt="Livro" src={livro3} top width="100%" className="image" />
         <CardBody>
           <CardTitle tag="h5">Livro novo</CardTitle>
           <h6>R$ 31,00</h6>
@@ -230,7 +205,13 @@ export default function List() {
         <p>Entre em contato comigo</p>
       </Card>
       <Card>
-        <CardImg alt="Berloque" src={berloque1} top width="100%" className="image"/>
+        <CardImg
+          alt="Berloque"
+          src={berloque1}
+          top
+          width="100%"
+          className="image"
+        />
         <CardBody>
           <CardTitle tag="h5">Berloque novo</CardTitle>
           <h6>R$ 80,00</h6>
@@ -247,7 +228,13 @@ export default function List() {
         <p>Entre em contato comigo</p>
       </Card>
       <Card>
-        <CardImg alt="Berloque" src={berloque2} top width="100%" className="image"/>
+        <CardImg
+          alt="Berloque"
+          src={berloque2}
+          top
+          width="100%"
+          className="image"
+        />
         <CardBody>
           <CardTitle tag="h5">Berloque novo</CardTitle>
           <h6>R$ 80,00</h6>
@@ -264,7 +251,13 @@ export default function List() {
         <p>Entre em contato comigo</p>
       </Card>
       <Card>
-        <CardImg alt="Piercing" src={piercing} top width="100%" className="image"/>
+        <CardImg
+          alt="Piercing"
+          src={piercing}
+          top
+          width="100%"
+          className="image"
+        />
         <CardBody>
           <CardTitle tag="h5">Piercing</CardTitle>
           <h6>R$ 80,00</h6>
@@ -281,7 +274,7 @@ export default function List() {
         <p>Entre em contato comigo</p>
       </Card>
       <Card>
-        <CardImg alt="Tatto" src={tatto} top width="100%" className="image"/>
+        <CardImg alt="Tatto" src={tatto} top width="100%" className="image" />
         <CardBody>
           <CardTitle tag="h5">Tatto</CardTitle>
           <h6>R$ 150,00</h6>
@@ -298,7 +291,13 @@ export default function List() {
         <p>Entre em contato comigo</p>
       </Card>
       <Card>
-        <CardImg alt="Esmalte" src={esmalte} top width="100%" className="image"/>
+        <CardImg
+          alt="Esmalte"
+          src={esmalte}
+          top
+          width="100%"
+          className="image"
+        />
         <CardBody>
           <CardTitle tag="h5">Esmalte</CardTitle>
           <h6>R$ 10,00</h6>
